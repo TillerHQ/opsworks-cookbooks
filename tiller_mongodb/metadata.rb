@@ -1,6 +1,6 @@
-name        "mongodb-big-tree-service"
+name        "tiller_mongodb"
 description 'Cookbook for MongoDB Berkshelf based install'
-maintainer  "Big Tree Money"
+maintainer  "Tiller"
 license     "Apache 2.0"
 version     "1.0.0"
 
