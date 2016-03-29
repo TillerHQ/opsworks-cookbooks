@@ -31,7 +31,6 @@ define :opsworks_nodejs do
       :deploy => deploy,
       :application_name => application,
       :monitored_script => "#{deploy[:deploy_to]}/current/server.js",
-      :status_path => "/#{deploy[:status_path]}"
     )
     notifies :restart, "service[monit]", :immediately
   end
