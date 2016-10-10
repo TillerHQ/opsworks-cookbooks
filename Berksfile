@@ -1,4 +1,4 @@
-site :opscode
+source "https://api.berkshelf.com"
 
 cookbook 'mongodb'
 cookbook 'build-essential', "= 3.2.0"
